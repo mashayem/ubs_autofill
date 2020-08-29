@@ -1,8 +1,7 @@
-from test.autofiller_1_test import MyTestForm
-from test.dropdown_demo import WebelementsDemo
+from test.ubs_autofiller import UbsAutofill
 
-wel = WebelementsDemo("chromedriver")
-wel.dropdownDemo()
+uaf = UbsAutofill()
+uaf.autofill("chromedriver")
 
 # t = MyTestForm()
 # t.test("chromedriver")
